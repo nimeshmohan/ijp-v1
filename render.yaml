@@ -12,7 +12,7 @@ services:
   - type: web
     name: ijp-cms-server
     runtime: node
-    plan: starter
+    plan: free
     region: oregon
     rootDir: .
     buildCommand: npm install && npm run build:server
