@@ -43,7 +43,6 @@ services:
   - type: web
     name: ijp-cms-client
     runtime: static
-    region: oregon
     rootDir: .
     buildCommand: npm install && npm run build:client
     staticPublishPath: client/dist
